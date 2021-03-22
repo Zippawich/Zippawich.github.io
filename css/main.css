@@ -1,0 +1,82 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 8px 8px 12px 0px orange;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 12px 28px;
+}
+
+.contact {
+  margin-bottom: 36px;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  width: 16px;
+}
+
+.contact-item {
+  margin-bottom: 4px;
+}
+
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  min-height: 100vh;
+  padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+
+.content {
+  max-width: 500px;
+}
+
+.name {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 24px;
+  }
+}
+
+.job {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.about {
+  font-size: 16px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 24px;
+}
